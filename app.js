@@ -35,7 +35,7 @@ app.use(cookieParser());
 app.use(flush()); 
 //Cv İndirmek İçin
 app.get("/dowland/file",(req,res)=>{
-res.download("./public/Cv.png");
+res.download("./public/Cv.pdf");
 }); 
 
 //Route Bölümü
